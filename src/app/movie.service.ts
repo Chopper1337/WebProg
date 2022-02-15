@@ -6,6 +6,10 @@ import { Injectable } from '@angular/core';
 export class MovieService {
 
   constructor() { }
+  
+  addMovie(movietitle:string, moviedirector:string, movieyear:string){
+    this.moviesList.push({title:movietitle, director:moviedirector, year:movieyear});
+  }
 
   moviesList = [
     { id: 1, title: 'Scarface', year: '1980', director: 'Jim Mark'},
