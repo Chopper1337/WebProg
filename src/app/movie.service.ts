@@ -12,11 +12,11 @@ export class MovieService {
   }
 
   moviesList = [
-    { id: 1, title: 'Scarface', year: '1980', director: 'Jim Mark'},
-    { id: 2, title: 'Dawn of The Dead', year: '1990', director: 'Mike Samson'},
-    { id: 3, title: 'Cars', year: '2000', director: 'John Smith'},
-    { id: 4, title: 'Fast and Furious', year: '2000', director: 'Mary Alen'},
-    { id: 5, title: 'Taxi Driver', year: '1990', director: 'Kate Jonnes'}
+    {title: 'Scarface', year: '1980', director: 'Jim Mark'},
+    {title: 'Dawn of The Dead', year: '1990', director: 'Mike Samson'},
+    {title: 'Cars', year: '2000', director: 'John Smith'},
+    {title: 'Fast and Furious', year: '2000', director: 'Mary Alen'},
+    {title: 'Taxi Driver', year: '1990', director: 'Kate Jonnes'}
   ];
   
   getMovies() {
